@@ -52,8 +52,8 @@ Kernel | BeautyKernel's alias
 ==/2   | eq?
 ===/2  | `?*`
 =~/2   | match?
->/2    | gt?
->=/2   | gteq?
+\>/2    | gt?
+\>=/2   | gteq?
 
 
 ## Installation
