@@ -7,7 +7,7 @@ The BeautyKernel package does implement aliases for some Kernel functions.
 It is usefull in pipelines, if you're tired of ugly Kernel calls, like shown below:
 
 ```elixir
-module Foo do
+defmodule Foo do
   def bar() do
     list_of_data
     |> elvis_function()
@@ -17,7 +17,7 @@ end
 ```
 
 ```elixir
-module Foo do
+defmodule Foo do
   import BeautyKernel, only: :functions
 
   def bar() do
