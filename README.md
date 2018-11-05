@@ -54,11 +54,11 @@ Kernel | BeatyKernel's alias
 =~/2   | match?
 >/2    | gt?
 >=/2   | gteq?
--------| -------------------
+
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+The package can be installed
 by adding `beaty_kernel` to your list of dependencies in `mix.exs`:
 
 ```elixir
