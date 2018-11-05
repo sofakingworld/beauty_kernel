@@ -1,6 +1,6 @@
 # BeatyKernel
 
-[Hex.pm] (https://hex.pm/packages/beaty_kernel/0.1.0)
+[Package on Hex.pm](https://hex.pm/packages/beaty_kernel/0.1.0)
 
 The BeatyKernel package does implement aliases for some Kernel functions.
 
@@ -54,7 +54,7 @@ Kernel | BeatyKernel's alias
 =~/2   | match?
 >/2    | gt?
 >=/2   | gteq?
-
+-------| -------------------
 
 ## Installation
 
