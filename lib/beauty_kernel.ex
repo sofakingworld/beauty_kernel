@@ -1,4 +1,4 @@
-defmodule BeatyKernel do
+defmodule BeautyKernel do
   @doc "alias to Kernel  !=/2 function"
   defdelegate not_eq?(left, right), to: Kernel, as: :!=
 

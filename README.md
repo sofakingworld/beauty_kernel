@@ -1,8 +1,8 @@
-# BeatyKernel
+# BeautyKernel
 
-[Package on Hex.pm](https://hex.pm/packages/beaty_kernel/0.1.0)
+[Package on Hex.pm](https://hex.pm/packages/beauty_kernel/0.1.0)
 
-The BeatyKernel package does implement aliases for some Kernel functions.
+The BeautyKernel package does implement aliases for some Kernel functions.
 
 It is usefull in pipelines, if you're tired of ugly Kernel calls, like shown below:
 
@@ -15,7 +15,7 @@ end
 ```
 
 ```elixir
-import BeatyKernel, only: :functions
+import BeautyKernel, only: :functions
 
 def foo() do
   list_of_data
@@ -31,7 +31,7 @@ table legend:
 `?*` - awaiting for naming proposal
 
 
-Kernel | BeatyKernel's alias
+Kernel | BeautyKernel's alias
 -------| -------------------
 !/1    | `?* `
 !=/2   | not_eq? 
@@ -59,12 +59,12 @@ Kernel | BeatyKernel's alias
 ## Installation
 
 The package can be installed
-by adding `beaty_kernel` to your list of dependencies in `mix.exs`:
+by adding `beauty_kernel` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:beaty_kernel, "~> 0.1.0"}
+    {:beauty_kernel, "~> 0.1.0"}
   ]
 end
 ```
