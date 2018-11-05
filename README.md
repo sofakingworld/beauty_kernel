@@ -16,6 +16,8 @@ defmodule Foo do
 end
 ```
 
+becomes beauty <3, just look:
+
 ```elixir
 defmodule Foo do
   import BeautyKernel, only: :functions
